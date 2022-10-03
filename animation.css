@@ -1,0 +1,7 @@
+.animate-logo {
+  transition: transform 0.7s ease-in-out;
+}
+
+.animate-logo:hover {
+  transform: rotate(360deg);
+}
