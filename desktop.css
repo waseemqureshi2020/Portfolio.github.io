@@ -138,15 +138,6 @@
     position: absolute;
   }
 
-  #background-desktop {
-    position: absolute;
-    top: 10%;
-    right: 0%;
-    width: 500px;
-    display: inline-flex;
-    z-index: 0;
-  }
-
   .top-links {
     color: #fff;
     text-decoration: none;
@@ -718,4 +709,9 @@
   .foo:hover {
     background-color: #f55800;
   }
+
+.languages-section {
+ display: none;
+}
+
 }
