@@ -320,15 +320,7 @@ body {
     width: 75%;
   }
 
-  .divider {
-    width: 90%;
-    position: relative;
-    display: flex;
-    right: 45px;
-    top: 80px;
-    margin: 58px;
-    border: 0.5px solid #fff;
-  }
+
 
   .divider01 {
     width: 90%;
@@ -536,9 +528,10 @@ body {
   .intro-section {
     background-color: rgba(60, 58, 57, 1);
     padding: 40px;
-    background-image: url("images/illustration-header-mobile.svg" alt="illustration-header-mobile");
+    background-image: url("images/illustration-header-mobile.svg");
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-attachment: absolute;
   }
 
   .form {
