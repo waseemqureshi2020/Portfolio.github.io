@@ -1,2 +1,4 @@
-# .gitignore 
-node_modules/
+node_modules
+.stylelintrc.json
+package-lock.json
+package.json
