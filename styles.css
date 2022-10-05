@@ -160,14 +160,13 @@ body {
   .menu-box,
   .hamburg {
     background-color: rgba(60, 58, 57, 1);
-    height: 70px;
+    height: 48px;
   }
 
   .hamburg {
     width: 24px;
     height: 24px;
     position: relative;
-    top: 45px;
   }
 
   h1 {
@@ -643,4 +642,18 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  .my-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    top: -5px;
+  }
+
 }
