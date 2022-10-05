@@ -275,18 +275,17 @@ body {
   }
 
   .para-type2 {
-     font-family: 'Inter', sans-serif;
-		 font-weight: 400;
-		 font-size: 16px;
-		 align-items: flex-end;
-		 justify-content: center;
-		 display: flex;
-		 flex-direction: row;
-		 position: absolute;
-	   bottom: 130px;
-     width: 75%;
-     left: 10%;
-
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 130px;
+    width: 75%;
+    left: 10%;
   }
 
   .btn-list {
