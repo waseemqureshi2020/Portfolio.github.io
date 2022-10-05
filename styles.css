@@ -340,7 +340,7 @@ body {
   }
 
   .about-me {
-    background-color: rgba(60, 58, 57, 1);
+    background-color: black;
     background-image: url("images/Frame.png");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -349,7 +349,7 @@ body {
   }
 
   .languages-section {
-    background-color: rgba(60, 58, 57, 1);
+    background-color: black;
   }
 
   #rectangle {
