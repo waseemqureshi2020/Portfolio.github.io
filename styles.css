@@ -167,6 +167,7 @@ body {
     width: 24px;
     height: 24px;
     position: relative;
+    left: 50px;
   }
 
   h1 {
@@ -654,6 +655,7 @@ body {
     line-height: 24px;
     position: relative;
     top: -5px;
+    right: 30px;
   }
 
 }
