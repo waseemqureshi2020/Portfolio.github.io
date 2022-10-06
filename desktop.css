@@ -47,9 +47,14 @@
     margin-top: -191.9px;
     line-height: 20px;
     margin-bottom: 40px;
-    background-color: #1c1a19;
-    block-size: 700px;
+    background-color: rgba(28, 26, 25, 1);
+    block-size: 720px;
     width: 100%;
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300px 700px;
+    background-attachment: absolute;
   }
 
   .intro {
@@ -77,7 +82,7 @@
     color: #fff;
     position: relative;
     bottom: 0%;
-    left: 9%;
+    left: 125px;
   }
 
   #details {
@@ -136,15 +141,6 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-  }
-
-  #background-desktop {
-    position: absolute;
-    top: 10%;
-    right: 0%;
-    width: 500px;
-    display: inline-flex;
-    z-index: 0;
   }
 
   .top-links {
@@ -255,10 +251,7 @@
     grid-template-columns: 30% 30% 30%;
     font-size: 14px;
     justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    margin-left: 1%;
-    margin-right: 3.5%;
+    margin-right: 5%;
     color: #fff;
     box-shadow: #3e3c3c;
   }
@@ -516,7 +509,7 @@
   }
 
   .contact-form-para {
-    font-size: 40px;
+    font-size: 32px;
     width: 90%;
     color: black;
     font-family: 'Inter', sans-serif;
@@ -717,5 +710,9 @@
 
   .foo:hover {
     background-color: #f55800;
+  }
+
+  .languages-section {
+    display: none;
   }
 }
