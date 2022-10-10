@@ -33,20 +33,6 @@ body {
     }
   }
 
-  .logo-menu {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(60, 58, 57, 1);
-    position: relative;
-    bottom: 30px;
-  }
-
-  .menu-box {
-    width: 24px;
-    height: 24px;
-    padding-right: 30px;
-  }
-
   .intro {
     color: #ff6b00;
     width: 327px;
@@ -152,21 +138,6 @@ body {
     top: 29px;
   }
 
-  .header-menu,
-  .main-nav,
-  .logo-menu,
-  .menu-box,
-  .hamburg {
-    background-color: rgba(60, 58, 57, 1);
-    height: 48px;
-  }
-
-  .hamburg {
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 50px;
-  }
 
   h1 {
     margin: 0;
@@ -645,17 +616,37 @@ body {
     text-decoration: none;
   }
 
-  .my-name {
+  .mobile-header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    position: relative;
-    top: -5px;
-    right: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 3rem;
+    background-color: rgba(60, 58, 57, 1);
   }
+
+  .hamburger {
+    z-index: 30;
+    margin-top: 0.65rem;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 0.25rem auto;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .my-logo {
+    color: white;
+    font-size: 1.125rem;
+    font-family: font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+    
+  }
+
 }
