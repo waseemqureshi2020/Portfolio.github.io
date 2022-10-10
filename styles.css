@@ -1,7 +1,7 @@
 html,
 body {
-  padding: auto;
-  margin: auto;
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -53,7 +53,6 @@ body {
     height: 124px;
     font-family: 'Crete Round', serif;
     font-style: normal;
-    font-weight: 400px;
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
@@ -112,7 +111,7 @@ body {
 
   .work-content {
     margin: 30px auto;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .btn-secondary {
@@ -151,7 +150,6 @@ body {
     width: 100%;
     position: relative;
     top: 29px;
-    display: cover;
   }
 
   .header-menu,
@@ -545,7 +543,6 @@ body {
     background-image: url("images/illustration-header-mobile.svg");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-attachment: absolute;
     height: 500px;
   }
 
@@ -585,7 +582,6 @@ body {
   input {
     border-width: 0;
     border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
   }
 

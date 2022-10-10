@@ -54,7 +54,6 @@
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 300px 700px;
-    background-attachment: absolute;
   }
 
   .intro {
@@ -253,7 +252,6 @@
     justify-content: space-between;
     margin-right: 5%;
     color: #fff;
-    box-shadow: #3e3c3c;
   }
 
   .tag-container {
