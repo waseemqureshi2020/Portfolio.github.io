@@ -83,10 +83,11 @@ a {
   display: block;
   color: rgba(111, 108, 107, 1);
   background-color: rgba(111, 108, 107, 1);
-  width: 110%;
+  width: 120%;
   height: 1px;
-  margin-left: -34px;
   opacity: 0.5;
+  position: relative;
+  right: 40px;
 }
 
 .closedIcon {
