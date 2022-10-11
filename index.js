@@ -18,6 +18,6 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 
-navLink.forEach(function (navLink) {
+navLink.forEach((navLink) => {
   navLink.addEventListener('click', toggleMenu);
 });
