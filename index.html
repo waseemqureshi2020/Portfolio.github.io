@@ -13,30 +13,33 @@
     <title>Waseem Qureshi</title>
 </head>
 <body>
-    <header class="header-menu">
-    <nav class="main-nav">
-        <div class="logo-menu">
-        <div class="name animate-logo"><h1 class="my-name">Waseem</h1></div>
-        <div><ul class="menu-box"><img class="hamburg" src="images/Normal Button/Tertiary/Icons/Icon - Menu.png" alt="menu"></ul></div>
-    </nav>
-    </div>
-    </header>
 
-    <!-- Desktop Header And Navigation -->
+    <!-- Desktop & Mobile Header And Navigation -->
 
-    <header class="desktop-header">
-    <div class="desktop-menu"
-    <div class="name-desktop "><h1 class="desktop-h1 animate-logo">Waseem Qureshi</h1></div>
-    <nav class="desktop-nav">
-        <ul class="desktop-list">
-            <li class="desktop-item"><a class="top-links" href="#"><img src="images/Union.png" alt="illustration"></a></li>
-            <li class="desktop-item"><a class="top-links" href="#">Contact</a></li>
-            <li class="desktop-item"><a class="top-links" href="#">About</a></li>
-            <li class="desktop-item"><a class="top-links" href="#">Portfolio</a></li>           
-        </ul>
-    </nav>
-    </div>
-    </header>
+    <header>
+        <nav class="navbar">
+            <a href=# class="nav-branding">Waseem Qureshi</a>
+            
+            <ul class="navMenu">
+                <li class="nav-item">
+                    <a href=#portfolio class="navLink">Portfolio</a>
+                </li>
+                <li class="underline"><hr></li>
+                <li class="nav-item">
+                    <a href=#about class="navLink">About</a>
+                </li>
+                <li class="underline"><hr></li>
+                <li class="nav-item">
+                    <a href=#contact class="navLink">Contact</a>
+                </li>
+                <li class="underline"><hr></li>
+            </ul>
+            <button class="hamburger">
+                <a class="hamburgerIcon" href="#"><img src="./images/Icon-Menu.svg" alt=""></a>
+                <a class="closedIcon" href="#"><img src="./images/Closed-Icon.png" alt=""></a>
+            </button>
+        </nav>
+      </header>
 
     <!-- End Of Desktop Header And Navigation -->
 
@@ -58,7 +61,7 @@
                     <li class="social-sidebar" id="mdm"><a class="scbar" href="https://medium.com/@waseemqureshiofficial2020"><img src="images/Normal Button/Tertiary/Icons/Icon - Medium.png" alt="medium"></a></li>
                 </ul></div>
     </section>
-    <section class="work-section">
+    <section id="portfolio" class="work-section">
         <div class="work-container">
             <div><h1 class="recent-work">My Recent Works</h1></div>
             <div class="divider01"></div>
@@ -181,7 +184,7 @@
 </div>
 </section>
 
-<section class="about-me">
+<section id="about" class="about-me">
     <div class="about-me-container">
         <div class="about-me-content">
             <h2 class="about-me-heading">About me</h2>
@@ -282,7 +285,7 @@
 </section>
 
 <footer>
-<section class="contact-form-section">
+<section id="contact" class="contact-form-section">
     <div class="contact-form-container">
         <div class="contact-form-content">
             <p class="contact-form-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -356,5 +359,6 @@
 </footer>
 
 </main>
+<script src="./index.js"></script>
 </body>
 </html>
