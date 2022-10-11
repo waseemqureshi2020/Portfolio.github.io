@@ -655,8 +655,8 @@ body {
   }
 
   .nav-item {
-    margin: 8px 0;
     text-align: center;
+    margin-left: -24px;
   }
 
   .navMenu.active {

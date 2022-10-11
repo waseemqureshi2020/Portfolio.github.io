@@ -31,7 +31,7 @@ a {
 
 .navMenu {
   display: flex;
-  gap: 8px;
+  gap: 14px;
 }
 
 @media only screen and (max-width: 786px) {
@@ -81,9 +81,12 @@ a {
 
 .underline {
   display: block;
-  background-color: #6f6c6b;
-  width: 100%;
+  color: ; rgba(111, 108, 107, 1);
+  background-color: rgba(111, 108, 107, 1);
+  width: 110%;
   height: 1px;
+  margin-left: -34px;
+  opacity: 0.5;
 }
 
 .closedIcon {
