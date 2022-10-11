@@ -49,20 +49,17 @@ body {
   .intro {
     color: #ff6b00;
     width: 327px;
-    height: 124px;
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 56px;
-    line-height: 64px;
     letter-spacing: 0.37px;
     position: relative;
-    top: 20px;
   }
 
   .work {
     color: #fff5e1;
     position: relative;
-    top: 20px;
+    top: 5px;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -118,8 +115,8 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
     position: relative;
-    bottom: -5px;
-    right: 35px;
+    right: 5px;
+    margin: 5px 0;
   }
 
   .btn-primary {
@@ -132,6 +129,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    line-height: 24px;
   }
 
   .paragraph-type2 {
@@ -148,7 +146,7 @@ body {
   img {
     width: 100%;
     position: relative;
-    top: 29px;
+    top: 30px;
   }
 
 
@@ -174,7 +172,6 @@ body {
   .para-type1 {
     position: relative;
     top: 1px;
-    left: 12px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -187,6 +184,7 @@ body {
     display: inline-flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    width: 80%;
   }
 
   .post-type1 {
@@ -227,7 +225,7 @@ body {
     position: relative;
     border: 1px solid #8993a4;
     bottom: 60px;
-    right: 10px;
+    left: 10%;
     font-size: 16px;
     padding: 6px 12px;
     color: #fff;
@@ -301,7 +299,7 @@ body {
     text-align: center;
     color: rgba(255, 107, 0, 1);
     position: relative;
-    top: 120px;
+    top: 40px;
     font-family: 'Crete Round', serif;
     font-weight: 400;
   }
@@ -309,7 +307,6 @@ body {
   .about-me-para {
     color: #fff;
     position: relative;
-    top: 70px;
     width: 75%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -344,8 +341,8 @@ body {
     width: 22px;
     height: 22px;
     position: absolute;
-    left: 30%;
-    top: 11%;
+    left: 22%;
+    top: 6%;
   }
 
   .languages,
@@ -387,13 +384,13 @@ body {
     width: 20px;
     height: 20px;
     position: absolute;
-    left: 28%;
-    top: 12%;
+    left: 20%;
+    top: 7.5%;
   }
 
   .framework-list {
     position: relative;
-    left: 25%;
+    left: 26%;
     top: 8px;
   }
 
@@ -401,8 +398,8 @@ body {
     width: 22px;
     height: 22px;
     position: absolute;
-    left: 28%;
-    top: 11%;
+    left: 20%;
+    top: 7.5%;
   }
 
   .contact-form-para {
@@ -523,7 +520,7 @@ body {
 
   .intro-section {
     background-color: black;
-    padding: 40px;
+    padding: 140px 20px;
     background-image: url("images/illustration-header-mobile.svg");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -578,7 +575,6 @@ body {
     position: relative;
     left: 90px;
     border: 1px solid #8993a4;
-    display: inline-flex;
     flex-direction: row;
     align-items: center;
     width: 131px;
@@ -674,7 +670,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 44px;
   }
-
+  
   .nav-item {
     margin: 8px 0;
     text-align: center;
