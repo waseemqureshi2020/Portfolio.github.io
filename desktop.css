@@ -1,59 +1,67 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 header {
-background-color: rgba(60, 58, 57, 1);
+  background-color: rgba(60, 58, 57, 1);
 }
 
 li {
-list-style: none;
+  list-style: none;
 }
 
-a{
-color: white;
-text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .navbar {
-min-height: 70px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 24px;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
 }
 
 .nav-menu {
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }
 
-.nav-branding{
-font-size: 1.125rem;
+.nav-branding {
+  font-size: 1.125rem;
 }
 
 .nav-links {
-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
 
-.nav-link:hover{
-color: #f9a826;
+.nav-link:hover {
+  color: #f9a826;
 }
 
+.hamburger-icon {
+  position: relative;
+  top: -25px;
+  background-color: #3c3a39;
+}
 
+.closed-icon {
+  display: none;
+}
 
 .bar {
-display: block;
-width: 25px;
-height: 3px;
-margin: 5px auto;
--webkit-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-background-color: #fff;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 786px) {
@@ -92,15 +100,15 @@ background-color: #fff;
     bottom: 70px;
     margin: 30px 40px;
     align-items: center;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 15px;
   }
 
-  .hamburger {
+  .hamburger-icon {
     display: none;
     cursor: pointer;
-    }
+  }
 
   .header-menu {
     display: none;
@@ -122,7 +130,7 @@ background-color: #fff;
   .intro {
     width: 566px;
     color: #f55800;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 72px;
@@ -134,7 +142,7 @@ background-color: #fff;
   }
 
   .work {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -157,7 +165,7 @@ background-color: #fff;
     position: relative;
     bottom: 0%;
     right: 5%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -224,7 +232,7 @@ background-color: #fff;
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
     font-size: 40px;
     left: 3%;
@@ -238,7 +246,7 @@ background-color: #fff;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
   }
 
   .para-type1 {
@@ -247,7 +255,7 @@ background-color: #fff;
     left: 745px;
     font-style: normal;
     width: 50%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
   }
@@ -275,7 +283,7 @@ background-color: #fff;
     color: #000;
     position: relative;
     bottom: 20%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     line-height: 20px;
   }
@@ -288,7 +296,7 @@ background-color: #fff;
     bottom: 505px;
     left: 740px;
     padding: 8px 14px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     line-height: 24px;
     border: none;
@@ -355,7 +363,7 @@ background-color: #fff;
     position: relative;
     left: 10px;
     top: 200px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
     padding: 6px 6px;
@@ -381,7 +389,7 @@ background-color: #fff;
     position: relative;
     left: 10px;
     top: 170px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 44px;
@@ -392,7 +400,7 @@ background-color: #fff;
     position: relative;
     left: 10px;
     top: 150px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
   }
@@ -433,7 +441,7 @@ background-color: #fff;
     justify-content: center;
     background-color: #ff6b00;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
@@ -503,7 +511,7 @@ background-color: #fff;
   .about-me-heading {
     font-size: 72px;
     color: #f55800;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-weight: 400;
     line-height: 82px;
   }
@@ -511,7 +519,7 @@ background-color: #fff;
   .about-me-para {
     width: 80%;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -532,7 +540,7 @@ background-color: #fff;
     color: #fff;
     position: relative;
     left: 4%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     line-height: 44px;
     align-items: center;
@@ -550,7 +558,7 @@ background-color: #fff;
     color: #fff;
     letter-spacing: 0.5px;
     margin: 10px 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     line-height: 43px;
     align-items: center;
@@ -574,7 +582,7 @@ background-color: #fff;
     font-size: 32px;
     width: 90%;
     color: black;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     line-height: 52px;
   }
@@ -593,7 +601,7 @@ background-color: #fff;
     margin: 1rem 0 0 0;
     background-color: #f55800;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
@@ -609,7 +617,7 @@ background-color: #fff;
     margin: 20px auto;
     padding: 10px 0 0 10px;
     height: 7rem;
-    font-family: 'Inter', serif;
+    font-family: "Inter", serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -755,7 +763,7 @@ background-color: #fff;
     border-radius: 10px;
     transition: linear 0.3s;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     line-height: 24px;
     border: 1px solid #f55800;
