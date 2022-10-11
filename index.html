@@ -20,19 +20,24 @@
         <nav class="navbar">
             <a href=# class="nav-branding">Waseem</a>
             
-            <ul class="nav-menu">
+            <ul class="navMenu">
                 <li class="nav-item">
-                    <a href=# class="nav-link">Portfolio</a>
+                    <a href=#portfolio class="navLink">Portfolio</a>
                 </li>
+                <li class="underline"><hr></li>
                 <li class="nav-item">
-                    <a href=# class="nav-link">About</a>
+                    <a href=#about class="navLink">About</a>
                 </li>
+                <li class="underline"><hr></li>
                 <li class="nav-item">
-                    <a href=# class="nav-link">Contact</a>
+                    <a href=#contact class="navLink">Contact</a>
                 </li>
+                <li class="underline"><hr></li>
             </ul>
-            <a class="hamburger-icon" href="#"><img src="./images/Icon-Menu.svg" alt=""></a>
-            <a class="closed-icon" href="#"><img src="./images/Closed-Icon.png" alt=""></a>
+            <button class="hamburger">
+                <a class="hamburgerIcon" href="#"><img src="./images/Icon-Menu.svg" alt=""></a>
+                <a class="closedIcon" href="#"><img src="./images/Closed-Icon.png" alt=""></a>
+            </button>
         </nav>
       </header>
 
@@ -56,7 +61,7 @@
                     <li class="social-sidebar" id="mdm"><a class="scbar" href="https://medium.com/@waseemqureshiofficial2020"><img src="images/Normal Button/Tertiary/Icons/Icon - Medium.png" alt="medium"></a></li>
                 </ul></div>
     </section>
-    <section class="work-section">
+    <section id="portfolio" class="work-section">
         <div class="work-container">
             <div><h1 class="recent-work">My Recent Works</h1></div>
             <div class="divider01"></div>
@@ -179,7 +184,7 @@
 </div>
 </section>
 
-<section class="about-me">
+<section id="about" class="about-me">
     <div class="about-me-container">
         <div class="about-me-content">
             <h2 class="about-me-heading">About me</h2>
@@ -280,7 +285,7 @@
 </section>
 
 <footer>
-<section class="contact-form-section">
+<section id="contact" class="contact-form-section">
     <div class="contact-form-container">
         <div class="contact-form-content">
             <p class="contact-form-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -354,5 +359,6 @@
 </footer>
 
 </main>
+<script src="./index.js"></script>
 </body>
 </html>

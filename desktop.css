@@ -25,32 +25,64 @@ a {
   padding: 0 24px;
 }
 
-.nav-menu {
+.navMenu {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 60px;
+}
+
+@media only screen and (max-width: 786px) {
+  .navMenu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #3c3a39;
+    color: #fff5e1;
+    list-style: none;
+    padding: 4rem;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.showMenu {
+  transform: translateY(0);
 }
 
 .nav-branding {
   font-size: 1.125rem;
 }
 
-.nav-links {
+.navLinks {
   transition: 0.7s ease;
 }
 
-.nav-link:hover {
+.navLink:hover {
   color: #f9a826;
 }
 
-.hamburger-icon {
-  position: relative;
-  top: -25px;
-  background-color: #3c3a39;
+.hamburger {
+  background: none;
+  border: none;
+  position: fixed;
+  z-index: 100;
+  top: -0.75rem;
+  right: 1rem;
+  padding: 4px;
 }
 
-.closed-icon {
+.underline {
+  display: block;
+  background-color: #6f6c6b;
+  width: 100%;
+  height: 1px;
+}
+
+.closedIcon {
   display: none;
 }
 
@@ -70,6 +102,14 @@ a {
     justify-content: start;
     background-color: rgba(60, 58, 57, 1);
     line-height: 36px;
+  }
+
+  .underline {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .name-desktop {
@@ -105,7 +145,7 @@ a {
     font-size: 15px;
   }
 
-  .hamburger-icon {
+  .hamburgerIcon {
     display: none;
     cursor: pointer;
   }
