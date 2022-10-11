@@ -669,16 +669,19 @@ body {
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    line-height: 44px;
   }
 
   .nav-item {
-    margin: 16px 0;
+    margin: 8px 0;
+    text-align: center;
   }
 
   .navMenu.active {
     left: 0;
   }
-
- 
 
 }
