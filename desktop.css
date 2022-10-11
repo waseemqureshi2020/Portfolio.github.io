@@ -44,10 +44,7 @@ transition: 0.7s ease;
 color: #f9a826;
 }
 
-.hamburger {
-display: block;
-cursor: pointer;
-}
+
 
 .bar {
 display: block;
@@ -99,6 +96,11 @@ background-color: #fff;
     font-weight: 600;
     font-size: 15px;
   }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    }
 
   .header-menu {
     display: none;

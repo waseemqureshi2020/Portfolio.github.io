@@ -5,6 +5,28 @@ body {
   overflow-x: hidden;
 }
 
+.hamburger {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  color: #fbf8f7;
+  z-index: 30;
+  margin-top: 0.65rem;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 @media only screen and (max-width: 786px) {
   .container {
     width: 100%;
@@ -625,10 +647,6 @@ body {
     background-color: rgba(60, 58, 57, 1);
   }
 
-  .hamburger {
-    z-index: 30;
-    margin-top: 0.65rem;
-  }
 
   .bar {
     display: block;
@@ -649,25 +667,6 @@ body {
     
   }
 
-  .hamburger {
-    display: block;
-    width: 25px;
-    height: 2px;
-    background-color: #fff;
-    color: #fbf8f7;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
 
   .nav-menu {
     position: fixed;
@@ -689,9 +688,6 @@ body {
     left: 0;
   }
 
-  .hamburger {
-    display: inline-block;
-    cursor: pointer;
-    }
+ 
 
 }
