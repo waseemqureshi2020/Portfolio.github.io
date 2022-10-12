@@ -292,7 +292,7 @@ a {
 
   .post-type1 {
     position: relative;
-    bottom: 505px;
+    bottom: 460px;
     left: 743px;
     font-style: normal;
     font-weight: 400;
@@ -303,7 +303,7 @@ a {
 
   .para-type1 {
     position: relative;
-    bottom: 500px;
+    bottom: 440px;
     left: 745px;
     font-style: normal;
     width: 50%;
@@ -316,7 +316,7 @@ a {
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: 500px;
+    bottom: 445px;
     left: 715px;
     font-style: normal;
     font-weight: 400;
@@ -345,7 +345,7 @@ a {
     font-size: 17px;
     color: #fff;
     position: relative;
-    bottom: 505px;
+    bottom: 470px;
     left: 740px;
     padding: 8px 14px;
     font-family: "Inter", sans-serif;
@@ -846,11 +846,8 @@ a {
     align-items: center;
     height: 100%;
     width: 100%;
-    left: 142px;
-    top: 112px;
     background: #fff;
     border-radius: 8px;
-    margin-left: 200px;
     border: 1px solid white;
   }
 
@@ -894,7 +891,7 @@ a {
   .popupClose {
     position: relative;
     top: 35px;
-    left: 350px;
+    left: 440px;
     width: 24px;
     height: 24px;
     background-color: #fff;
@@ -904,7 +901,7 @@ a {
   .popupDescription {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
     bottom: 430px;
     left: 470px;

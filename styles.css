@@ -46,7 +46,7 @@ body {
   .work {
     color: #fff5e1;
     position: relative;
-    top: 5px;
+    top: 8px;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -165,12 +165,16 @@ body {
 
   #details {
     position: relative;
-    top: 8px;
+    top: 15px;
     font-size: 16px;
     display: inline-flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     width: 80%;
+  }
+
+  img#post-background {
+    margin-bottom: 20px;
   }
 
   .post-type1 {

@@ -97,6 +97,18 @@ const projectSix = {
 
 projects.push(projectSix);
 
+const projectSeven = {
+  id: 'projectSeven',
+  name: 'Multi Post Stories',
+  tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+  img: './images/popup-image.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  demo: '',
+  source: '',
+};
+
+projects.push(projectSeven);
+
 function projectClick(event) {
   const clickedId = event.target.id;
 
@@ -164,7 +176,6 @@ function projectClick(event) {
       seeSource.className = 'popupSource';
       seeSource.innerHTML = '<button type="button" class="btnSource"><a href="https://github.com/waseemqureshi2020/portfolio.github.io">See Source</a></button ';
       link.appendChild(seeSource);
-
     }
   }
 }
