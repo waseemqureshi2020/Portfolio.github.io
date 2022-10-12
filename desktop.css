@@ -839,4 +839,103 @@ a {
   .languages-section {
     display: none;
   }
+
+  .popupSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left: 142px;
+    top: 112px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 200px;
+    border: 1px solid white;
+  }
+
+  .popupTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 1108px;
+    height: 40px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .popupList {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    top: 20px;
+    right: 400px;
+    padding: 0px;
+    gap: 8px;
+    width: 294px;
+    height: 40px;
+  }
+
+  .popupImage {
+    height: 448px;
+    width: 659px;
+    position: relative;
+    top: 20px;
+    right: 220px;
+    border-radius: 0px;
+  }
+
+  .popupClose {
+    position: relative;
+    top: 35px;
+    left: 350px;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border: none;
+  }
+
+  .popupDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom: 430px;
+    left: 470px;
+    padding: 10px;
+    height: 100%;
+    width: 50%;   
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btnLive, .btnSource {
+    background-color: #ff6b00;
+    width: 134px;
+    height: 48px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .popupLink {
+    position: relative;
+    bottom: 425px;
+    right: 80px;
+    background-color: white;
+  }
+
 }
