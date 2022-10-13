@@ -342,14 +342,6 @@ body {
     position: relative;
   }
 
-  h3 {
-    font-size: 24px;
-    color: #fff;
-    position: absolute;
-    bottom: -25px;
-    left: 120px;
-  }
-
   .language-list,
   .framework-list,
   .skill-list {
@@ -668,9 +660,12 @@ body {
   }
 
   .insideDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-color: #fff;
     position: absolute;
-    top: 7rem;
+    top: 6rem;
     bottom: 2rem;
     left: 2rem;
     right: 2rem;
@@ -678,7 +673,95 @@ body {
     height: auto;
     overflow: auto;
   }
-  
+
+  .popupTitle {
+    margin: 25px auto auto 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #172B4D;
+  }
+
+  .insideDiv ul {
+    align-items: baseline;
+    display: flex;
+    column-gap: 0.5rem;
+    list-style: none;
+    padding: 16px 0 0 16px;
+  }
+
+  .insideDiv li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    color: #3a4a42;
+    background: #fff;
+    border: 1px solid #979493;
+    padding: 10px 12px;
+  }
+
+  .popupImage {
+    padding: 0 16px;
+    width: 100%;
+    height: auto;
+  }
+
+  .popupImg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .insideDiv p {
+    font-family: 'Inter', sans-serif;
+    padding: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 25px;
+  }
+
+  .closeButton {
+    position: relative;
+    top: -60px;
+    right: -40%;
+    background: none;
+    border: none;
+  }
+
+  #closeButton {
+    background: none;
+    border: none;
+  }
+
+  .Link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 16px;
+  }
+
+  .seeLive, .seeSource {
+    background: none;
+    border: none;
+    display: flex;
+  }
+
+  .btnLive, .btnSource{
+    background-color: #ff6b00;
+    border: 1px solid #8993a4;
+    padding: 8px 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
 
   .popupSection {
     display: flex;
@@ -693,58 +776,4 @@ body {
     height: auto;
     overflow: hidden;
   }
-
-  .titleContainer {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 82px;
-  }
-
-  .popupTitle {
-    color: black;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-  }
-
-  /* .popupList {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-  } */
-
-  /* .popupImage {
-    width: 311px;
-    height: 220px;
-    padding: 16px;
-  } */
-
-  /* .popupClose {
-    position: fixed;
-    left: 50px;
-    top: 200px;
-  } */
-
-  /* .popupDescription {
-   color: black;
-   width: 90%;
-   font-size: 16px;
-   margin-left: 16px;
-    margin-right: 16px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  } */
-
-  /* .btnLive, .btnSource {
-    background-color: #ff6b00;
-    width: 104px;
-    height: 38px;
-    padding: 12px;
-    gap: 8px;
-    color: white;
-  } */
-
 }

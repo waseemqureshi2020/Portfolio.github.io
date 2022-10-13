@@ -119,30 +119,29 @@ function projectClick(event) {
       popupSection.className = 'popupSection';
       body.appendChild(popupSection);
 
-      const closeIcon = document.createElement('button');
-      closeIcon.className = 'popupClose';
-      closeIcon.innerHTML = '<button onclick="closeWindow()" id="closeIcon" ><img src="images/Closed-Icon.png" alt="CloseIcon"/></button>';
-      popupSection.appendChild(closeIcon);
-
       const insideContainer = document.createElement('div');
       insideContainer.className = 'insideDiv';
       popupSection.appendChild(insideContainer);
       
-      const titleContainer = document.createElement('div');
-      titleContainer.className = 'titleContainer'
-      insideContainer.appendChild(titleContainer);
-
       const h3 = document.createElement('h3');
-      h3.className = 'popupTitle';
+      h3.className = 'popupTitle'
       h3.innerHTML = projects[i].name;
-      titleContainer.appendChild(h3);
-
-      const techContainer = document.createElement('div');
-      insideContainer.appendChild(techContainer);
+      insideContainer.appendChild(h3);
+      
+      const closeIcon = document.createElement('button');
+      closeIcon.className = 'closeButton';
+      closeIcon.innerHTML = '<button onclick="closeWindow()" id="closeButton" ><img src="images/Closed-Icon.png" alt="CloseIcon"/></button>';
+      insideContainer.appendChild(closeIcon);
 
       const techList = document.createElement('ul');
-      techList.className = 'popupList';
-      techContainer.appendChild(techList);
+      insideContainer.appendChild(techList);
+      
+      // eslint-disable-next-line no-plusplus
+      for (let j = 0; j < projects[i].tech.length; j++) {
+        const list = document.createElement('li');
+        list.innerHTML = projects[i].tech[j];
+        techList.appendChild(list);
+      }
       
       const imageContainer = document.createElement('div');
       imageContainer.className = 'popupImage';
@@ -150,37 +149,27 @@ function projectClick(event) {
       
       const img = document.createElement('img');
       img.setAttribute('src', projects[i].img);
+      img.className = 'popupImg';
       img.setAttribute('alt','Project image');
-      insideContainer.appendChild(img);
-
-      // eslint-disable-next-line no-plusplus
-      for (let j = 0; j < projects[i].tech.length; j++) {
-        const list = document.createElement('li');
-        list.innerHTML = projects[i].tech[j];
-        techList.appendChild(list);
-      }
-
-      const popupText = document.createElement('div');
-      insideContainer.appendChild(popupText);
+      imageContainer.appendChild(img);
 
       const p = document.createElement('p');
-      p.className = 'popupDescription';
       p.innerHTML = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.';
-      popupText.appendChild(p);
+      insideContainer.appendChild(p);
 
-      const link = document.createElement('div');
-      link.className = 'popupLink';
-      insideContainer.appendChild(link);
+      const Link = document.createElement('div');
+      Link.className = 'Link';
+      insideContainer.appendChild(Link);
 
       const seeLive = document.createElement('button');
-      seeLive.className = 'popupLive';
+      seeLive.className = 'seeLive';
       seeLive.innerHTML = '<button type="button" class="btnLive"><a href="https://waseemqureshi2020.github.io/portfolio.github.io/">See Live</a></button ';
-      link.appendChild(seeLive);
+      Link.appendChild(seeLive);
 
       const seeSource = document.createElement('button');
-      seeSource.className = 'popupSource';
+      seeSource.className = 'seeSource';
       seeSource.innerHTML = '<button type="button" class="btnSource"><a href="https://github.com/waseemqureshi2020/portfolio.github.io">See Source</a></button ';
-      link.appendChild(seeSource);
+      Link.appendChild(seeSource);
     }
   }
 }
