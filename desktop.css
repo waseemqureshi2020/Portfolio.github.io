@@ -862,7 +862,7 @@ a {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .insideDiv ul {
@@ -935,14 +935,16 @@ a {
     margin-right: -24px;
   }
 
-  .seeLive, .seeSource {
+  .seeLive,
+  .seeSource {
     background: none;
     border: none;
     display: flex;
     margin-right: 20px;
   }
 
-  .btnLive, .btnSource{
+  .btnLive,
+  .btnSource {
     background-color: #ff6b00;
     border: 1px solid #8993a4;
     padding: 8px 14px;
@@ -964,7 +966,7 @@ a {
     width: auto;
     height: auto;
     overflow: hidden;
-  } 
+  }
 
   .nav-branding {
     font-size: 1.125rem;
@@ -972,4 +974,4 @@ a {
     position: relative;
     left: 6.25rem;
   }
-  }
+}
