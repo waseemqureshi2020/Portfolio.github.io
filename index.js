@@ -32,8 +32,8 @@ const projectOne = {
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
   img: './images/popup-image.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  demo: '',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectOne);
@@ -44,8 +44,8 @@ const projectTwo = {
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
   img: './images/popup-image.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  demo: '',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectTwo);
@@ -56,7 +56,8 @@ const projectThree = {
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
   img: './images/popup-image.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectThree);
@@ -67,8 +68,8 @@ const projectFour = {
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
   img: './images/popup-image.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  demo: '',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectFour);
@@ -79,8 +80,8 @@ const projectFive = {
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
   img: './images/popup-image.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  demo: '',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectFive);
@@ -91,8 +92,8 @@ const projectSix = {
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
   img: './images/popup-image.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  demo: '',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectSix);
@@ -101,13 +102,25 @@ const projectSeven = {
   id: 'projectSeven',
   name: 'Multi Post Stories',
   tech: ['Html', 'Bootstrap', 'Ruby on rails'],
-  img: './images/popup-image.png',
+  img: './images/project7.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  demo: '',
-  source: '',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
 };
 
 projects.push(projectSeven);
+
+const projectEight = {
+  id: 'projectEight',
+  name: 'Multi Post Stories',
+  tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+  img: './images/popup-image.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  demo: 'https://waseemqureshi2020.github.io/portfolio.github.io',
+  source: 'https://github.com/waseemqureshi2020/portfolio.github.io',
+};
+
+projects.push(projectEight);
 
 function projectClick(event) {
   const clickedId = event.target.id;
@@ -163,12 +176,12 @@ function projectClick(event) {
 
       const seeLive = document.createElement('button');
       seeLive.className = 'seeLive';
-      seeLive.innerHTML = '<button type="button" class="btnLive"><a href="https://waseemqureshi2020.github.io/portfolio.github.io/">See Live</a></button ';
+      seeLive.innerHTML = '<button type="button" class="btnLive"><a href="https://waseemqureshi2020.github.io/portfolio.github.io/">See Live</a><img id="go" src="./images/go.png"></button ';
       Link.appendChild(seeLive);
 
       const seeSource = document.createElement('button');
       seeSource.className = 'seeSource';
-      seeSource.innerHTML = '<button type="button" class="btnSource"><a href="https://github.com/waseemqureshi2020/portfolio.github.io">See Source</a></button ';
+      seeSource.innerHTML = '<button type="button" class="btnSource"><a href="https://github.com/waseemqureshi2020/portfolio.github.io">See Source</a><img id="gh" src="./images/github.png"></button ';
       Link.appendChild(seeSource);
     }
   }

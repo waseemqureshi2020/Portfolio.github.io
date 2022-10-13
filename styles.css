@@ -117,6 +117,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     line-height: 24px;
+    color: white;
   }
 
   .paragraph-type2 {
@@ -776,4 +777,16 @@ body {
     height: auto;
     overflow: hidden;
   }
+
+  #go,#gh {
+    position: relative;
+    top: 0;
+    width: 24px;
+  }
+
+  .nav-branding {
+    font-size: 1.125rem;
+    width: 100%;
+  }
+
 }

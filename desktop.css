@@ -32,6 +32,8 @@ a {
 .navMenu {
   display: flex;
   gap: 14px;
+  position: relative;
+  right: 5rem;
 }
 
 @media only screen and (max-width: 786px) {
@@ -55,10 +57,6 @@ a {
 
 .showMenu {
   transform: translateY(0);
-}
-
-.nav-branding {
-  font-size: 1.125rem;
 }
 
 .navLinks {
@@ -840,99 +838,139 @@ a {
     display: none;
   }
 
-  .popupSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background: #fff;
-    border-radius: 8px;
-    border: 1px solid white;
-  }
-
-  .popupTitle {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-    width: 1108px;
-    height: 40px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-  }
-
-  .popupList {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    position: relative;
-    top: 20px;
-    right: 400px;
-    padding: 0px;
-    gap: 8px;
-    width: 294px;
-    height: 40px;
-  }
-
-  .popupImage {
-    height: 448px;
-    width: 659px;
-    position: relative;
-    top: 20px;
-    right: 220px;
-    border-radius: 0px;
-  }
-
-  .popupClose {
-    position: relative;
-    top: 35px;
-    left: 440px;
-    width: 24px;
-    height: 24px;
-    background-color: #fff;
-    border: none;
-  }
-
-  .popupDescription {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    bottom: 430px;
-    left: 470px;
-    padding: 10px;
-    height: 100%;
-    width: 50%;   
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .btnLive, .btnSource {
-    background-color: #ff6b00;
-    width: 134px;
-    height: 48px;
-    color: white;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: 'Inter', sans-serif;
-    line-height: 24px;
-    border: none;
-    margin-right: 10px;
-  }
+  /* POP UP SECTION */
   
-  .popupLink {
+ .insideDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  position: absolute;
+  top: 6rem;
+  bottom: 6rem;
+  left: 7rem;
+  right: 7rem;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.popupTitle {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.insideDiv ul {
+  align-items: baseline;
+  display: flex;
+  column-gap: 0.5rem;
+  list-style: none;
+}
+
+.insideDiv li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  color: #3a4a42;
+  background: #fff;
+  border: 1px solid #979493;
+  padding: 10px 12px;
+}
+
+.popupImage {
+  width: 100%;
+  height: auto;
+}
+
+.popupImg {
+  width: 60%;
+  height: 80%;
+  padding-top: 24px;
+  padding-right: 24px;
+}
+
+.insideDiv p {
+  position: relative;
+  float: right;
+  top: -96%;
+  right: -60%;
+  width: 40%;
+  font-family: 'Inter', sans-serif;
+  padding: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.closeButton {
+  position: relative;
+  top: -20px;
+  right: -47%;
+  background: none;
+  border: none;
+}
+
+#closeButton {
+  background: none;
+  border: none;
+}
+
+.Link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  float: right;
+  top: -82.2%;
+  right: -24%;
+  margin-right: -24px;
+}
+
+.seeLive, .seeSource {
+  background: none;
+  border: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+.btnLive, .btnSource{
+  background-color: #ff6b00;
+  border: 1px solid #8993a4;
+  padding: 8px 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.popupSection {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+} 
+
+.nav-branding {
+  font-size: 1.125rem;
+    width: 100%;
     position: relative;
-    bottom: 425px;
-    right: 80px;
-    background-color: white;
-  }
+    left: 6.25rem;
+}
 
 }
