@@ -682,7 +682,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .insideDiv ul {
@@ -748,13 +748,15 @@ body {
     margin: 20px 16px;
   }
 
-  .seeLive, .seeSource {
+  .seeLive,
+  .seeSource {
     background: none;
     border: none;
     display: flex;
   }
 
-  .btnLive, .btnSource{
+  .btnLive,
+  .btnSource {
     background-color: #ff6b00;
     border: 1px solid #8993a4;
     padding: 8px 14px;
@@ -778,7 +780,8 @@ body {
     overflow: hidden;
   }
 
-  #go,#gh {
+  #go,
+  #gh {
     position: relative;
     top: 0;
     width: 24px;
@@ -788,5 +791,4 @@ body {
     font-size: 1.125rem;
     width: 100%;
   }
-
 }

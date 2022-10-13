@@ -839,138 +839,137 @@ a {
   }
 
   /* POP UP SECTION */
-  
- .insideDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #fff;
-  position: absolute;
-  top: 6rem;
-  bottom: 6rem;
-  left: 7rem;
-  right: 7rem;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  padding: 24px;
-}
 
-.popupTitle {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172B4D;
-}
+  .insideDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    position: absolute;
+    top: 6rem;
+    bottom: 6rem;
+    left: 7rem;
+    right: 7rem;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 24px;
+  }
 
-.insideDiv ul {
-  align-items: baseline;
-  display: flex;
-  column-gap: 0.5rem;
-  list-style: none;
-}
+  .popupTitle {
+    font-family: 'Crete', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+  }
 
-.insideDiv li {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
-  text-align: center;
-  color: #3a4a42;
-  background: #fff;
-  border: 1px solid #979493;
-  padding: 10px 12px;
-}
+  .insideDiv ul {
+    align-items: baseline;
+    display: flex;
+    column-gap: 0.5rem;
+    list-style: none;
+  }
 
-.popupImage {
-  width: 100%;
-  height: auto;
-}
+  .insideDiv li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    color: #3a4a42;
+    background: #fff;
+    border: 1px solid #979493;
+    padding: 10px 12px;
+  }
 
-.popupImg {
-  width: 60%;
-  height: 80%;
-  padding-top: 24px;
-  padding-right: 24px;
-}
+  .popupImage {
+    width: 100%;
+    height: auto;
+  }
 
-.insideDiv p {
-  position: relative;
-  float: right;
-  top: -96%;
-  right: -60%;
-  width: 40%;
-  font-family: 'Inter', sans-serif;
-  padding: 16px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
+  .popupImg {
+    width: 60%;
+    height: 80%;
+    padding-top: 24px;
+    padding-right: 24px;
+  }
 
-.closeButton {
-  position: relative;
-  top: -20px;
-  right: -47%;
-  background: none;
-  border: none;
-}
+  .insideDiv p {
+    position: relative;
+    float: right;
+    top: -96%;
+    right: -60%;
+    width: 40%;
+    font-family: 'Inter', sans-serif;
+    padding: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-#closeButton {
-  background: none;
-  border: none;
-}
+  .closeButton {
+    position: relative;
+    top: -20px;
+    right: -47%;
+    background: none;
+    border: none;
+  }
 
-.Link {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  float: right;
-  top: -82.2%;
-  right: -24%;
-  margin-right: -24px;
-}
+  #closeButton {
+    background: none;
+    border: none;
+  }
 
-.seeLive, .seeSource {
-  background: none;
-  border: none;
-  display: flex;
-  margin-right: 20px;
-}
+  .Link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    float: right;
+    top: -82.2%;
+    right: -24%;
+    margin-right: -24px;
+  }
 
-.btnLive, .btnSource{
-  background-color: #ff6b00;
-  border: 1px solid #8993a4;
-  padding: 8px 14px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-}
+  .seeLive, .seeSource {
+    background: none;
+    border: none;
+    display: flex;
+    margin-right: 20px;
+  }
 
-.popupSection {
-  display: flex;
-  flex-direction: column;
-  backdrop-filter: blur(5px);
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-} 
+  .btnLive, .btnSource{
+    background-color: #ff6b00;
+    border: 1px solid #8993a4;
+    padding: 8px 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
 
-.nav-branding {
-  font-size: 1.125rem;
+  .popupSection {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  } 
+
+  .nav-branding {
+    font-size: 1.125rem;
     width: 100%;
     position: relative;
     left: 6.25rem;
-}
-
-}
+  }
+  }

@@ -135,12 +135,12 @@ function projectClick(event) {
       const insideContainer = document.createElement('div');
       insideContainer.className = 'insideDiv';
       popupSection.appendChild(insideContainer);
-      
+
       const h3 = document.createElement('h3');
-      h3.className = 'popupTitle'
+      h3.className = 'popupTitle';
       h3.innerHTML = projects[i].name;
       insideContainer.appendChild(h3);
-      
+
       const closeIcon = document.createElement('button');
       closeIcon.className = 'closeButton';
       closeIcon.innerHTML = '<button onclick="closeWindow()" id="closeButton" ><img src="images/Closed-Icon.png" alt="CloseIcon"/></button>';
@@ -148,22 +148,22 @@ function projectClick(event) {
 
       const techList = document.createElement('ul');
       insideContainer.appendChild(techList);
-      
+
       // eslint-disable-next-line no-plusplus
       for (let j = 0; j < projects[i].tech.length; j++) {
         const list = document.createElement('li');
         list.innerHTML = projects[i].tech[j];
         techList.appendChild(list);
       }
-      
+
       const imageContainer = document.createElement('div');
       imageContainer.className = 'popupImage';
       insideContainer.appendChild(imageContainer);
-      
+
       const img = document.createElement('img');
       img.setAttribute('src', projects[i].img);
       img.className = 'popupImg';
-      img.setAttribute('alt','Project image');
+      img.setAttribute('alt', 'Project image');
       imageContainer.appendChild(img);
 
       const p = document.createElement('p');
@@ -187,7 +187,7 @@ function projectClick(event) {
   }
 }
 
-function closeWindow() { 
+function closeWindow() {
   const iconClose = document.getElementsByClassName('popupSection');
   iconClose[0].style.display = 'none';
   iconClose[0].remove();
