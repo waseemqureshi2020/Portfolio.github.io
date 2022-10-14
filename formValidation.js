@@ -11,6 +11,6 @@ function validationForm(event) {
     emailForm.reset();
   } else {
     event.preventDefault();
-    invalidEmail.innerHTML = 'Please enter the email in lowercase';
+    invalidEmail.innerHTML = 'Please Enter Your Email In Lowercase';
   }
 }

@@ -416,6 +416,9 @@ body {
     left: 0%;
     padding: 10px 8px;
     margin: auto auto;
+    line-height: 50px;
+    margin-top: 14px;
+    font-size: 15px;
   }
 
   .btn-submit {
@@ -447,7 +450,7 @@ body {
     position: relative;
     width: 134px;
     height: 5px;
-    left: calc(50% - 134px / 2 - 0.5px);
+    left: calc(50% - 174px / 2 - 0.5px);
     top: 8px;
   }
 
@@ -517,6 +520,8 @@ body {
     align-items: flex-start;
     gap: 24px;
     padding-top: 58px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   #form-name-email,
@@ -585,9 +590,7 @@ body {
     display: flex;
     right: 50%;
   }
-
   .social-links-desktop,
-  .desktop-form,
   .desktop-about-me,
   .desktop-skills,
   .desktop-projects,
@@ -793,6 +796,44 @@ body {
     font-size: 1.125rem;
     width: 100%;
   }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  li input{
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    margin-top: 14px;
+    border-bottom: 1px solid rgba(219, 216, 215, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+  }
+
+  .btn1 {
+    padding: 10px 20px;
+    margin-top: 24px;
+    background-color: #ff6b00;
+    color: white;
+    position: relative;
+    left: 30%;
+    margin-bottom: 120px;
+  }
+
+  .invalidEmail {
+    padding-top: 14px;
+    color: red;
+  }
+
 }
 
 @media only screen and (max-width: 426px) {
