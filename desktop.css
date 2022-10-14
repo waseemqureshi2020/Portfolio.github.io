@@ -290,7 +290,7 @@ a {
 
   .post-type1 {
     position: relative;
-    bottom: 460px;
+    bottom: 450px;
     left: 743px;
     font-style: normal;
     font-weight: 400;
@@ -356,14 +356,14 @@ a {
     border: 0.5px solid black;
     width: 60%;
     position: relative;
-    bottom: 55px;
+    bottom: 30px;
     left: 420px;
   }
 
+  .mobile-footer,
   .posts-section,
   .my-logo,
-  .about-me,
-  .contact-form-section {
+  .about-me {
     display: none;
   }
 
@@ -509,6 +509,7 @@ a {
     height: 448px;
     display: inline-flex;
     left: 3%;
+    top: 20px;
   }
 
   .work-container {
@@ -637,6 +638,7 @@ a {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     line-height: 52px;
+    padding: 20px;
   }
 
   .form-list {
@@ -686,7 +688,8 @@ a {
     width: 50%;
   }
 
-  .text {
+  .text,
+  #email_Desk {
     width: 270%;
     margin: 20px -2px;
     padding: 15px 15px 15px 15px;
@@ -974,5 +977,10 @@ a {
     width: 100%;
     position: relative;
     left: 6.25rem;
+  }
+
+  .invalidEmail {
+    padding-top: 14px;
+    color: red;
   }
 }
