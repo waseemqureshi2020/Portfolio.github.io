@@ -122,9 +122,11 @@ const projectEight = {
 
 projects.push(projectEight);
 
+/* eslint-disable */
 function projectClick(event) {
   const clickedId = event.target.id;
 
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < projects.length; i++) {
     if (projects[i].id === clickedId) {
       const body = document.querySelector('body');
@@ -155,6 +157,7 @@ function projectClick(event) {
         list.innerHTML = projects[i].tech[j];
         techList.appendChild(list);
       }
+      
 
       const imageContainer = document.createElement('div');
       imageContainer.className = 'popupImage';
@@ -185,10 +188,12 @@ function projectClick(event) {
       Link.appendChild(seeSource);
     }
   }
-}
+/* eslint-enable */}
 
+/* eslint-disable */
 function closeWindow() {
   const iconClose = document.getElementsByClassName('popupSection');
   iconClose[0].style.display = 'none';
   iconClose[0].remove();
 }
+/* eslint-enable */
