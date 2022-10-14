@@ -188,7 +188,8 @@ function projectClick(event) {
       Link.appendChild(seeSource);
     }
   }
-/* eslint-enable */}
+}
+/* eslint-enable */
 
 /* eslint-disable */
 function closeWindow() {
