@@ -852,7 +852,8 @@ a {
     right: 7rem;
     width: auto;
     height: auto;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 24px;
   }
 
