@@ -794,12 +794,12 @@ body {
   }
 }
 
-@media only screen and (max-width:426px) {
+@media only screen and (max-width: 426px) {
   .closeButton {
     position: relative;
     top: -100px;
     right: -40%;
     background: none;
     border: none;
-}
+  }
 }
