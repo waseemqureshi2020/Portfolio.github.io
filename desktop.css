@@ -852,7 +852,7 @@ a {
     right: 7rem;
     width: auto;
     height: auto;
-    overflow: hidden;
+    overflow: auto;
     padding: 24px;
   }
 
