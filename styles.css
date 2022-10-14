@@ -519,7 +519,8 @@ body {
     padding-top: 58px;
   }
 
-  .form-name-email {
+  #form-name-email,
+  .form-name {
     width: 100%;
     font-style: normal;
     font-weight: 400;
