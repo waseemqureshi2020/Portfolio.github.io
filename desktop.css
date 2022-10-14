@@ -900,7 +900,7 @@ a {
   .insideDiv p {
     position: relative;
     float: right;
-    top: -96%;
+    top: -94%;
     right: -60%;
     width: 40%;
     font-family: 'Inter', sans-serif;
@@ -930,7 +930,7 @@ a {
     justify-content: center;
     position: relative;
     float: right;
-    top: -82.2%;
+    top: -80.2%;
     right: -24%;
     margin-right: -24px;
   }
