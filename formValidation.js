@@ -7,8 +7,8 @@ const invalidEmail = document.querySelector('.invalidEmail');
 // eslint-disable-next-line no-unused-vars
 function validationForm(event) {
   if (emailElement.value === emailElement.value.toLowerCase()) {
-  emailForm.submit();
-  emailForm.reset();
+    emailForm.submit();
+    emailForm.reset();
   } else {
     event.preventDefault();
     invalidEmail.innerHTML = 'Please Enter Your Email In Lowercase';
