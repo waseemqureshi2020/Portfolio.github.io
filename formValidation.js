@@ -8,7 +8,7 @@ const invalidEmail = document.querySelector('.invalidEmail');
 function validationForm(event) {
   if (emailElement.value === emailElement.value.toLowerCase()) {
     emailForm.submit();
-     emailForm.reset();
+    emailForm.reset();
   } else {
     event.preventDefault();
     invalidEmail.innerHTML = 'Please Enter Your Email In Lowercase';
