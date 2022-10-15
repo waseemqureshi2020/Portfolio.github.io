@@ -294,13 +294,13 @@
         <form action="https://formspree.io/f/mqkjqnvl" method="POST" class="form">
             <ul class="form-list">
               <li>
-                <input class="text" type="text" max="30" id="name" name="name" placeholder="Full Name" required>
+                <input class="text" type="text" max="30" id="name" name="name" placeholder="Full Name" required onchange="getInputValue()">
               </li>
               <li>
-                <input class="email" type="email" name="email" id="email_Desk" placeholder="Email address" required>
+                <input class="email" type="email" name="email" id="email_Desk" placeholder="Email address" required onchange="getInputValue()">
               </li>
               <li>
-                <textarea name="message" id="message" placeholder="Hello Waseem. Glad To See You " max="500"></textarea>
+                <textarea onchange="getInputValue()" name="message" id="message" placeholder="Hello Waseem. Glad To See You " max="500" required></textarea>
               </li>
               <li class="invalidEmail"></li>
               <li>
@@ -352,5 +352,6 @@
 </main>
 <script src="./index.js"></script>
 <script src="./formValidation.js"></script>
+<script src="./localStorage.js"></script>
 </body>
 </html>
