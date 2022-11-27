@@ -201,4 +201,3 @@ function openWindow() {
   window.open('./Waseem.jpg');
 }
 /* eslint-enable */
->>>>>>> Stashed changes
