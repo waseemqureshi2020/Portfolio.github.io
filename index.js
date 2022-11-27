@@ -197,6 +197,7 @@ function closeWindow() {
   iconClose[0].style.display = 'none';
   iconClose[0].remove();
 }
+
 function openWindow() {
   window.open('./Waseem.jpg');
 }
