@@ -21,8 +21,6 @@ hamburger.addEventListener('click', toggleMenu);
 navLink.forEach((navLink) => {
   navLink.addEventListener('click', toggleMenu);
 });
-<<<<<<< Updated upstream
-=======
 
 /* POP UP CSS */
 
